@@ -6,7 +6,7 @@ class ifBedingung2 {
 
     public static void main(String[] args) {
 
-        // Erstelle zwei Zufallszahlen zwischen 0 und 100
+
 
         Random random = new Random();
         int randomNumber1 = random.nextInt(100);
