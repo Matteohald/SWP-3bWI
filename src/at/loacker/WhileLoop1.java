@@ -18,14 +18,14 @@ class WhileLoop1 {
 
             if (randomNumber1 == 15 || randomNumber2 == 15 ){
                 finished = true;
-                System.out.println("program finished, 15");
+                System.out.println("15");
             }
             else if (randomNumber1 == 25 || randomNumber2 == 25){
                 finished = true;
-                System.out.println("program finished, 25");
+                System.out.println("25");
             }
 
         }
-        System.out.println("Die summe der Zahlen ergibt: " + result);
+        System.out.println("Summe: " + result);
     }
 }
