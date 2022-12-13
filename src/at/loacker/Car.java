@@ -1,5 +1,7 @@
 package at.loacker;
 
+import java.util.Scanner;
+
 class Car {
     public int fuelConsumption;
     public int fuelAmount;
@@ -22,5 +24,20 @@ class Car {
         }else{
             System.out.println("Not enough fuel for SuperBoostMode");
         }
+    }
+
+    public void honk(){
+        System.out.println("How often should be honked?");
+        Scanner scanner = new Scanner(System.in);
+        int honkAmount = scanner.nextInt();
+
+        for(int amountOfRepetitions = 0; amountOfRepetitions < honkAmount; amountOfRepetitions++){
+            System.out.println("Tuuut");
+        }
+    }
+
+    public void getRemainingRange(){
+        int range = this.fuelAmount / this.fuelConsumption;
+        System.out.println("You can still drive " + range + " times before you have to refuel");
     }
 }

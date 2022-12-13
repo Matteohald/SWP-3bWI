@@ -27,6 +27,8 @@ class Main {
         System.out.println(c1.fuelAmount);
         c1.turboBoost();
         System.out.println(c1.fuelAmount);
+        c1.honk();
+        c1.getRemainingRange();
 
     }
 }
