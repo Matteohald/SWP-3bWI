@@ -28,7 +28,5 @@ class Main {
         c1.turboBoost();
         System.out.println(c1.fuelAmount);
 
-
-
     }
 }
