@@ -4,18 +4,18 @@ class Main {
     public static void main(String[] args) {
 
         Car c1 = new Car();
-        c1.brand = "Audi";
-        c1.fuelConsumption = 5;
-        c1.serialNumber = "A1234";
-        c1.fuelAmount = 70;
-        c1.superboostConsumption = 7;
+        c1.setBrand("Audi");
+        c1.setFuelConsumption(5);
+        c1.setSerialNumber("A1234");
+        c1.setFuelAmount(70);
+        c1.setSuperboostConsumption(7);
 
         Car c2 = new Car();
-        c2.brand = "Mercedes";
-        c2.fuelConsumption = 4;
-        c2.serialNumber = "B4321";
-        c2.fuelAmount = 50;
-        c2.superboostConsumption = 5;
+        c2.setBrand("Mercedes");
+        c2.setFuelConsumption(4);
+        c2.setSerialNumber("B4321");
+        c2.setFuelAmount(50);
+        c2.setSuperboostConsumption(5);
 
         System.out.println(c2.fuelAmount);
         c2.drive();
@@ -31,4 +31,6 @@ class Main {
         c1.getRemainingRange();
 
     }
+
+
 }

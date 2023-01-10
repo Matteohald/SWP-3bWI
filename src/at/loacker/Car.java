@@ -3,23 +3,42 @@ package at.loacker;
 import java.util.Scanner;
 
 class Car {
-    public int fuelConsumption;
-    public int fuelAmount;
-    public int superboostConsumption;
-    public String brand;
-    public String serialNumber;
+    private int fuelConsumption;
+    private int fuelAmount;
+    private int superboostConsumption;
+    private String brand;
+    private String serialNumber;
     private String color;
+
     public Car(int fuelConsumption, String brand, String serialNumber){
         this.fuelConsumption = fuelConsumption;
         this.brand = brand;
         this.serialNumber = serialNumber;
-
     }
 
-    public Car() {
-
+    public void setBrand(String brand) {
+        this.brand = brand;
     }
 
+    public void setColor(String color) {
+        this.color = color;
+    }
+
+    public void setFuelAmount(int fuelAmount) {
+        this.fuelAmount = fuelAmount;
+    }
+
+    public void setFuelConsumption(int fuelConsumption) {
+        this.fuelConsumption = fuelConsumption;
+    }
+
+    public void setSerialNumber(String serialNumber) {
+        this.serialNumber = serialNumber;
+    }
+
+    public void setSuperboostConsumption(int superboostConsumption) {
+        this.superboostConsumption = superboostConsumption;
+    }
 
     public void drive() {
         this.fuelAmount = this.fuelAmount - fuelConsumption;
