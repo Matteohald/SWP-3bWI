@@ -73,5 +73,27 @@ class Car {
         System.out.println("You can still drive " + range + " times before you have to refuel");
     }
 
+    public String getSerialNumber() {
+        return serialNumber;
+    }
 
+    public int getFuelAmount() {
+        return fuelAmount;
+    }
+
+    public int getFuelConsumption() {
+        return fuelConsumption;
+    }
+
+    public int getSuperboostConsumption() {
+        return superboostConsumption;
+    }
+
+    public String getColor() {
+        return color;
+    }
+
+    public String getBrand() {
+        return brand;
+    }
 }
