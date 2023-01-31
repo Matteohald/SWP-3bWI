@@ -1,4 +1,4 @@
-package at.loacker;
+package at.loacker.structuredprogramming;
 import java.util.Scanner;
 
 class cashmachine {

@@ -1,11 +1,12 @@
-package at.loacker;
+package at.loacker.structuredprogramming;
 
-class Loop2 {
+class Loop1 {
     public static void main(String[] args) {
-        for (int i = 2; i <=1000 ; i = i+2) {
+        for (int i = 1; i <=1000 ; i++) {
             System.out.println(i);
 
         }
     }
+
 
 }

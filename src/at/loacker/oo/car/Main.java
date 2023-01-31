@@ -1,5 +1,5 @@
-package at.loacker.oo;
-import at.loacker.oo.Car;
+package at.loacker.oo.car;
+import at.loacker.oo.car.Car;
 
 class Main {
     public static void main(String[] args) {

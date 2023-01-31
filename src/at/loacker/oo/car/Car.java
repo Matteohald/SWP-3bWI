@@ -1,4 +1,4 @@
-package at.loacker.oo;
+package at.loacker.oo.car;
 
 import java.util.Scanner;
 

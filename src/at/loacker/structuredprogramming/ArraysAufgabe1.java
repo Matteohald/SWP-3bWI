@@ -1,4 +1,4 @@
-package at.loacker;
+package at.loacker.structuredprogramming;
 
 class ArraysAufgabe1 {
     public static void main(String[] args) {
