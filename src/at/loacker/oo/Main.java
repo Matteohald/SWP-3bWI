@@ -1,6 +1,5 @@
-package at.loacker;
-import at.loacker.Car;
-import com.sun.source.tree.UsesTree;
+package at.loacker.oo;
+import at.loacker.oo.Car;
 
 class Main {
     public static void main(String[] args) {
@@ -19,16 +18,16 @@ class Main {
         c2.setFuelAmount(50);
         c2.setSuperboostConsumption(5);
 
-        System.out.println(c2.fuelAmount);
+        System.out.println(c2.getFuelAmount());
         c2.drive();
-        System.out.println(c2.fuelAmount);
+        System.out.println(c2.getFuelAmount());
 
-        System.out.println(c1.fuelAmount);
+        System.out.println(c1.getFuelAmount());
         c1.drive();
         c1.brake();
-        System.out.println(c1.fuelAmount);
+        System.out.println(c1.getFuelAmount());
         c1.turboBoost();
-        System.out.println(c1.fuelAmount);
+        System.out.println(c1.getFuelAmount());
         c1.honk();
         c1.getRemainingRange();
 

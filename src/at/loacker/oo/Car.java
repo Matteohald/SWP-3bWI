@@ -1,8 +1,8 @@
-package at.loacker;
+package at.loacker.oo;
 
 import java.util.Scanner;
 
-class Car {
+public class Car {
     private int fuelConsumption;
     private int fuelAmount;
     private int superboostConsumption;
