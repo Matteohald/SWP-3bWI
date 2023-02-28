@@ -1,7 +1,7 @@
 package at.loacker.oo.car;
 
 public class Engine {
-    private enum FUEL {DIESEL, GASOLINE}
+    private enum FUEL {DIESEL, GAS}
     private int horsePower;
     private String engineType;
     private FUEL fuelType;
