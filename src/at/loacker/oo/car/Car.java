@@ -4,16 +4,19 @@ import java.util.Scanner;
 
 public class Car {
     private int fuelConsumption;
+    private Engine engine;
     private int fuelAmount;
     private int superboostConsumption;
     private String brand;
     private String serialNumber;
+
     private String color;
 
     public Car(int fuelConsumption, String brand, String serialNumber){
         this.fuelConsumption = fuelConsumption;
         this.brand = brand;
         this.serialNumber = serialNumber;
+        this.engine = engine;
     }
 
     public void setBrand(String brand) {

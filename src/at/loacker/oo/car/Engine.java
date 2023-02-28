@@ -15,3 +15,27 @@ public class Engine {
     public void engineIsRunning (int amount){
         System.out.println("The engine is running with " + amount);
     }
+    public int getHorsePower() {
+        return horsePower;
+    }
+
+    public void setHorsePower(int horsePower) {
+        this.horsePower = horsePower;
+    }
+
+    public String getEngineType() {
+        return engineType;
+    }
+
+    public void setEngineType(String engineType) {
+        this.engineType = engineType;
+    }
+
+    public FUEL getFuelType() {
+        return fuelType;
+    }
+
+    public void setFuelType(FUEL fuelType) {
+        this.fuelType = fuelType;
+    }
+}
